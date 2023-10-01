@@ -7,6 +7,9 @@
             <div class="mb-3">
                 <img src="@($"https://gillcleerenpluralsight.blob.core.windows.net/person/{this.Employee.EmployeeId}.jpg")" class="employee-card" />
             </div>
+            <button class="btn btn-primary btn-sm mb-1" @onclick="@(async () => await EmployeeQuickViewClicked.InvokeAsync(this.Employee))">Quick view</button>
+            @*<a href="@($"employeedetail/{ this.Employee.EmployeeId}")" class="btn btn-outline-primary btn-sm mb-1">Full Details</a>*@
+            <button class="btn btn-outline-primary btn-sm mb-1" @onclick="(() => NavigateToDetails(this.Employee))">Full Details</button>
         </div>
     </div>
 </div>
