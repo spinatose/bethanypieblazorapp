@@ -14,4 +14,27 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.11" PrivateAssets="all" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="BethanysPieShopHRM.Shared\Domain\MaritalStatus.cs" />
+    <Compile Remove="BethanysPieShopHRM.Shared\Domain\JobCategory.cs" />
+    <Compile Remove="BethanysPieShopHRM.Shared\Domain\Gender.cs" />
+    <Compile Remove="BethanysPieShopHRM.Shared\Domain\Country.cs" />
+    <Compile Remove="BethanysPieShopHRM.Shared\Domain\Employee.cs" />
+    <Compile Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.AssemblyInfo.cs" />
+    <Compile Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.GlobalUsings.g.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.AssemblyInfoInputs.cache" />
+    <None Remove="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
 </Project>
