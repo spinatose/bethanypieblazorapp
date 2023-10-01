@@ -33,6 +33,20 @@
     <None Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.GeneratedMSBuildEditorConfig.editorconfig" />
     <None Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.AssemblyInfoInputs.cache" />
     <None Remove="Models\" />
+    <None Remove="Components\" />
+    <None Remove="BethanysPieShopHRM.Shared\.DS_Store" />
+    <None Remove="BethanysPieShopHRM.Shared\obj\project.nuget.cache" />
+    <None Remove="BethanysPieShopHRM.Shared\obj\BethanysPieShopHRM.Shared.csproj.nuget.g.targets" />
+    <None Remove="BethanysPieShopHRM.Shared\obj\BethanysPieShopHRM.Shared.csproj.nuget.g.props" />
+    <None Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.assets.cache" />
+    <None Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.csproj.CoreCompileInputs.cache" />
+    <None Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.dll" />
+    <None Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.pdb" />
+    <None Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\refint\BethanysPieShopHRM.Shared.dll" />
+    <None Remove="BethanysPieShopHRM.Shared\bin\Debug\net6.0\BethanysPieShopHRM.Shared.dll" />
+    <None Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\ref\BethanysPieShopHRM.Shared.dll" />
+    <None Remove="BethanysPieShopHRM.Shared\bin\Debug\net6.0\BethanysPieShopHRM.Shared.pdb" />
+    <None Remove="BethanysPieShopHRM.Shared\obj\Debug\net6.0\BethanysPieShopHRM.Shared.csproj.FileListAbsolute.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj">
@@ -41,5 +55,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Components\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="BethanysPieShopHRM.Shared\obj\project.assets.json" />
+    <Content Remove="BethanysPieShopHRM.Shared\obj\BethanysPieShopHRM.Shared.csproj.nuget.dgspec.json" />
+    <Content Remove="BethanysPieShopHRM.Shared\bin\Debug\net6.0\BethanysPieShopHRM.Shared.deps.json" />
   </ItemGroup>
 </Project>

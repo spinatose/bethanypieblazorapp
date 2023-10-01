@@ -1,10 +1,9 @@
-﻿using System;
-using BethanysPieShopHRM.App.Models;
+﻿using BethanysPieShopHRM.App.Models;
 using BethanysPieShopHRM.Shared.Domain;
 
 namespace BethanyPieShopHRM.App.Pages
 {
-	public partial class EmployeeOverview
+    public partial class EmployeeOverview
 	{
 		public List<Employee>? Employees { get; set; } = default; 
 
@@ -14,4 +13,3 @@ namespace BethanyPieShopHRM.App.Pages
 		}
 	}
 }
-
